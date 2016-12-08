@@ -1,6 +1,16 @@
-# REST
+# REST + Sinatra
 
-Now that we've had a break, we'll take a REST! (*Pause for effect.*)
+## Obectives:
+- Understand what a RESTful Method is.
+- Determine what each RESTful method does.
+- Know what a RESTful "route" is.
+- Recognize the interaction of RESTful routes between the client and server.
+- See examples from the industry on how they use RESTful routes.
+- Learn how to recieve query strings.
+- Learn how to recieve data from a form.
+- Know what RESTful action methods forms are able to do and how to get around the forms limits.
+
+### Overview
 
 We've been seeing that `get` word a lot. It has to do with HTTP requests.
 Remember: a server's job is to respond to HTTP requests. In order to talk about
@@ -43,6 +53,10 @@ We make requests all the time -- especially GET requests. Everytime you go to
 your browser, enter a URL, and hit enter, you're actually making a GET request.
 
 ### REST Methods
+
+To better understand REST, the community has created another acronym called CRUD to better understand what each REST method does. 
+
+You can dive deeper on REST and CRUD here at [RESTful Routing](http://restfulrouting.com/).
 
 REST defines five main methods, each of which corresponds to one of the CRUD
 functionalities.
