@@ -1,8 +1,9 @@
 # REST + Sinatra
 
 ## Obectives:
+- Gain a basic understanding of HTTP.
 - Understand what a RESTful Method is.
-- Determine what each RESTful method does.
+- Learn about the 5 most common RESTful methods are.
 - Know what a RESTful "route" is.
 - Recognize the interaction of RESTful routes between the client and server.
 - See examples from the industry on how they use RESTful routes.
@@ -16,23 +17,15 @@ We've been seeing that `get` word a lot. It has to do with HTTP requests.
 Remember: a server's job is to respond to HTTP requests. In order to talk about
 how Sinatra functions, we need to talk about how HTTP requests work.
 
+### HyperText Transfer Protocol (HTTP)
+
+HTTP functions as a request–response protocol in the client–server computing model.
+
 Every HTTP request consists of a request **method** and **path**. The **path**
 is the URL to which the request is being sent. That's pretty familiar. However,
 your browser always sends that request in a particular *way* that gives the
 server a hint as to the "point" of the request. This "particular way" is the
 **method**.
-
-### For example
-
-You could consider me speaking to the class to be an HTTP request. I'm the
-browser. You all are the server. The path is the classroom(who/what i'm saying
-it to). The method is how I'm talking(what kind of things/actions i want).
-
-If my method is "talking in a normal voice", you can infer that the point of my
-request is for you all to just absorb some information.
-
-If my method is "YELLING IN A LOUD VOICE", you can infer that the point of my
-request is for you all to start behaving yourselves right this second.
 
 ### REST
 
@@ -56,9 +49,9 @@ your browser, enter a URL, and hit enter, you're actually making a GET request.
 
 To better understand REST, the community has created another acronym called CRUD to better understand what each REST method does. 
 
-You can dive deeper on REST and CRUD here at [RESTful Routing](http://restfulrouting.com/).
+You can dive deeper on REST and CRUD here at [HTTP Request Methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#frbanner3).
 
-REST defines five main methods, each of which corresponds to one of the CRUD
+REST defines five main methods(technically there are more but there are 5 most commony used), each of which corresponds to one of the CRUD
 functionalities.
 
 | Method | Crud functionality |
