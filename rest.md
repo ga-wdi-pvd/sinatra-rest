@@ -2,14 +2,14 @@
 
 ## Obectives:
 - Gain a basic understanding of HTTP.
-- Understand what a RESTful Method is.
-- Learn about the 5 most common RESTful methods are.
-- Know what a RESTful "route" is.
+- Understand what is a RESTful "method".
+- Learn what the 5 most common RESTful methods are.
+- Know what is a RESTful "route".
 - Recognize the interaction of RESTful routes between the client and server.
-- See examples from the industry on how they use RESTful routes.
+- We're going to see examples from the industry using RESTful routes.
 - Learn how to recieve query strings.
 - Learn how to recieve data from a form.
-- Know what RESTful action methods forms are able to do and how to get around the forms limits.
+- Know what RESTful action methods forms are limited to and how to get around them.
 
 ### Overview
 
