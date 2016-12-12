@@ -106,18 +106,28 @@ functionality that will be executed. That's the method's job.
 Let's check out the [ESPN website](http://espn.go.com/). If we go to a specific
 player's webpage, we can see this same sort of structure in the URL.
 
-### You do:
+### We do:
 
-Create routes for the following requests. The first one is done for you.
+I have some DATA here I would like us to manipulate together.
 
-1. Create a new animal
-  - `POST /animals`
-2. Delete an animal
-3. Update an existing homework assignment
-4. Create a new class at GA.
-5. View all students in WDI.
-6. Update the info for an animal with 3 as its id.
-7. Update homework submission #32 for assignment #3
+I am going to show you what action I want, then call on someone to tell me what RESTful method I need to accomplish this goal.
+
+```javascript
+students = [
+    {
+      name: George
+      github: youKnowit2
+    },
+    {
+      name: Jason
+      github: jasonMF
+    },
+    {
+      name: Holly
+      github: hollster89
+    },
+  ]
+```
 
 # BREAK
 
