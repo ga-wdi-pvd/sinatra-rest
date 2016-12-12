@@ -103,6 +103,8 @@ REST provides a template for the way different paths should look:
 Note that the path doesn't contain any of the words describing the CRUD
 functionality that will be executed. That's the method's job.
 
+### We do:
+
 Let's check out the [ESPN website](http://espn.go.com/). If we go to a specific
 player's webpage, we can see this same sort of structure in the URL.
 
